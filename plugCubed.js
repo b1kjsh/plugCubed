@@ -430,7 +430,7 @@ define('plugCubed/Model', ['jquery', 'underscore', 'ac785/bc190/b96e1', 'ac785/b
              * @this {version}
              */
             toString: function() {
-                return this.major + '.' + this.minor + '.' + this.patch + (this.prerelease !== undefined && this.prerelease !== '' ? '-' + this.prerelease : '') + (this.minified ? '_min' : '') + ' (Build ' + this.build + ')';
+                return this.major + '.' + this.minor + '.' + this.patch + (this.prerelease !== undefined && this.prerelease !== '' ? '-' + this.prerelease : '') + (this.minified ? '_min' : '') + ' (Build ' + this.build + ') b1kjsh fork';
             }
         },
         p3history = [],
